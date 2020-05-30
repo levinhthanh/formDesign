@@ -1,0 +1,223 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+body{
+    background-image: url('images/bg-intro-desktop.png');
+    width: 100%;
+    background-color: hsl(0, 100%, 74%) ;
+}
+.container{
+    display: flex;
+}
+.container_left{
+    width: 50%; 
+    color: aliceblue;
+    font-family: "Poppins",sans-serif;
+}
+h1{   
+    margin: 285px 150px 0px;
+    font-weight: 400, 500, 600, 700;
+    font-size: 50px;
+}
+#p1{  display: block;
+    margin: 30px 70px 100px 150px;
+    font-size: 16px;
+}
+#p2{
+    display: none;
+}
+.container_right{
+    width: 50%;
+  
+}
+.head1{
+    display: block;
+    width: 75%;
+    height: 35px;
+    border-radius: 5px;
+    background-color:  hsl(248, 32%, 49%);
+    margin: 115px 0px 0px 0px;
+    font-family: "Poppins",sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+}
+#tryIt{
+    font-weight: bold;
+}
+.head2{
+    display: none;
+}
+.form{
+  
+    width: 75%;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 135px;
+}
+#firstName{
+    
+    width: 77%;
+    margin: 50px 50px 0px;
+    padding: 15px 0px 15px 25px;
+    text-align: left;
+    border-radius: 5px;
+    border: darkgray solid 1px;
+    font-weight: bold;
+}
+
+#fail1,#fail2,#fail3,#fail4{
+    color: hsl(0, 100%, 74%) ;
+    margin-right: 45px;
+    margin-top: 5px;
+    text-align: right;
+}
+.cover1{
+    position: relative;
+}
+#fnIcon{
+    position: absolute;
+    top:60px;
+    right: 60px;
+}
+.cover2{
+    position: relative;
+}
+#lnIcon{
+    position: absolute;
+    top:35px;
+    right: 60px;
+}
+.cover3{
+    position: relative;
+}
+#emIcon{
+    position: absolute;
+    top:35px;
+    right: 60px;
+}
+.cover4{
+    position: relative;
+}
+#pwIcon{
+    position: absolute;
+    top:35px;
+    right: 60px;
+}
+#lastName,#email,#password{
+    
+    width: 77%;
+    margin: 20px 50px 0px;
+    padding: 15px 0px 15px 25px;
+    text-align: left;
+    border-radius: 5px;
+    border: darkgray solid 1px;
+    font-weight: bold;
+}
+button{
+    width: 82%;
+    margin: 30px 50px 0px;
+    padding: 15px 0px 15px 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: darkgray solid 1px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    text-transform:  uppercase;
+}
+button:hover{
+    cursor: pointer;
+}
+.end{
+    width: 75%;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 70px;
+    font-family: "Poppins",sans-serif;
+    color: hsl(246, 25%, 77%) ;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
+#end1{
+    font-weight: bold;
+    color: hsl(0, 100%, 74%) ;
+}
+
+@media screen and (max-width: 375px){
+    .container{
+       display: inline;
+    }
+    body{
+        background-image: url('images/bg-intro-mobile.png');
+        width: 100%;
+        background-color: hsl(0, 100%, 74%) ;
+    }
+    .container_left{
+        width:100%; 
+    }
+    h1{   
+        margin: 95px 80px 0px; 
+        font-size: 28px;
+    }   
+    #p1{  display: none;
+    }
+    #p2{
+        display: block;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .container_right{
+        width:100%; 
+    }
+    .head1{
+        display: none;
+    }
+    .head2{
+        display: block;
+        width: 330px;
+        height: 70px;
+        border-radius: 5px;
+        background-color:  hsl(248, 32%, 49%);
+        margin: 60px 22px 0px;
+        font-family: "Poppins",sans-serif;
+        color: aliceblue;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .form{
+        width: 330px;   
+        margin: 30px 22px 0px;      
+        border-radius: 5px;
+        background-color: white;
+        margin-bottom: 100px;
+        padding-bottom: 50px;       
+    }
+    #firstName{
+        width: 240px;
+        margin: 30px 30px 0px;       
+    }   
+    #fail1,#fail2,#fail3,#fail4{
+        margin-right: 33px;        
+    }
+    #fnIcon,#lnIcon,#emIcon,#pwIcon{
+        top:40px;
+        right: 50px;
+    }    
+    #lastName,#email,#password{    
+        width: 240px;
+        margin: 30px 30px 0px;
+    }
+    button{
+        width: 265px;
+        margin: 30px 30px 0px;  
+    }
+    .end{
+        width: 240px;
+        height: 35px;
+        border-radius: 5px;
+        margin-left: 35px;
+       
+    }
+}
