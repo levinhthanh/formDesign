@@ -40,13 +40,17 @@ h1{
     color: aliceblue;
     text-align: center;
     padding-top: 15px;
+    box-shadow: 0px 0px 10px hsl(249, 10%, 26%);
 }
+
 #tryIt{
     font-weight: bold;
 }
 .head2{
     display: none;
 }
+
+
 .form{
   
     width: 75%;
@@ -54,7 +58,9 @@ h1{
     border-radius: 5px;
     background-color: white;
     margin-bottom: 135px;
+    box-shadow: 0px 0px 10px hsl(249, 10%, 26%);
 }
+
 #firstName{
     
     width: 77%;
@@ -145,6 +151,9 @@ button:hover{
     color: hsl(0, 100%, 74%) ;
 }
 
+input:focus{
+    outline: none;
+}
 @media screen and (max-width: 375px){
     .container{
        display: inline;
@@ -185,6 +194,7 @@ button:hover{
         color: aliceblue;
         text-align: center;
         padding-top: 20px;
+        box-shadow: 0px 0px 10px hsl(249, 10%, 26%);
     }
     .form{
         width: 330px;   
