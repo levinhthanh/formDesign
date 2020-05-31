@@ -154,6 +154,9 @@ button:hover{
 input:focus{
     outline: none;
 }
+button:focus{
+    outline: none;
+}
 @media screen and (max-width: 375px){
     .container{
        display: inline;
